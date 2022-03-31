@@ -141,13 +141,6 @@ $("p").append("<strong>Another</strong>")
 //     console.log(color);
 // });
 
-//Friday week02 workshop 5th exercise
 
-// With jQuery you get a new method $ every jQuery action starts with $(selector) 
-// where selector is a valid css selector. 
-// Then you can tell jQuery what to do with the selected element. 
-// For example if you have an <h1> element with an id="title" attribute, 
-// then you can change its text with:
-$('#title').text('My New Title');
 
 console.log("This is the End og the Code!")
