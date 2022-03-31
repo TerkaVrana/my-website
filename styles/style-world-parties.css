@@ -1,0 +1,33 @@
+main {
+  width: 500px;
+  border: 5px solid #c4aa23;
+}
+
+p {
+  color: 	#343c24;
+  padding: 50px; 
+  text-align: center;
+  margin: 0;
+}
+
+.first {
+  background: #2c7c94; 
+}
+
+.second {
+  background: #a6d0c8; 
+}
+
+.third {
+  background: #a65852; 
+}
+
+.fourth {
+  background: #fbe45b; 
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
