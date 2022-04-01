@@ -1,0 +1,28 @@
+main {
+  width: 400px;
+  font-family: 'Enriqueta', serif;
+}
+
+h1 {
+  color: #f36846;
+}
+
+h2 {
+  color: #842fd8;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.pink {
+  color: magenta;
+}
+
+span {
+  text-decoration: underline;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
