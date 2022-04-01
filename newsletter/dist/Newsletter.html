@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Newsletter</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style-newsletter.css">
 
 </head>
 <body>
@@ -38,19 +38,24 @@
         <p>Paragraph</p>
 
         <input type="text" id="email">
+        <input type="text" id="color-input" value="blue">
         <button type="submit">Subscribe</button>
         <input type="checkbox" id="terms">
-        <label for="terms">Accept the <a href="../../terms_and_conditions.html">terms and conditions</a> </label>
+        <label for="terms">Accept the <a href="../../terms_and_conditions.html" target="_blank">terms and conditions</a> </label>
 
         <div class="closing-x">
-          <button>x</button>
+          <button type="button">x</button>
         </div>
       </form>
     </div>
 
-    <div id="question-circle">?</div>
+    <button id="question-circle">?</button>
+    <button id="change-color">Change color!</button>
 
   </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script-newsletter.js"></script>
 </body>
 <!-- partial -->
   
