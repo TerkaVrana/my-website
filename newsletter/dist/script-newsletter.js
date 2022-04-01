@@ -37,7 +37,7 @@ $('.closing-x button').click(() => {
 // Add a third button to the webpage
 // When the user clicks on the last button, change the background-color of each button
 
-$('button#change-color').click(() =>{
+$('button#change-color').click(() => {
     $("button").css("background", "purple");
 })
 
@@ -72,11 +72,40 @@ $('button#change-color').click(() =>{
 // Change the behavior by ignoring all the clicks after the first one. So even if the input has changed, keep the previous color if it has already changed once.
 
 let changed = false;
-$('button#question-circle').click(() =>{
-    // alert(color);
+$('button#question-circle').click(() => {
     if (!changed) {
         changed = true;
         let color = $("#color-input").val();
         $("button").css("background", color);
     }
+})
+
+
+//Friday week02 workshop 9th:
+
+// Counter
+// Replicate the basic HTML above (2 different headings and a button)
+// Create an EventListener for clicking on the button, increase the value of the second heading (currently 0)
+var $button = $('.increment-btn');
+var $decButton = $('.decrement-btn');
+var $counter = $('#counter');
+
+$button.click(function() {
+  $counter.text(parseInt($counter.text()) + 1 );
+  // `parseInt` converts the `value` from a string to a number
+});
+
+$decButton.click(function() {
+    $counter.text(parseInt($counter.text()) - 1 );
+    // `parseInt` converts the `value` from a string to a number
+  });
+
+
+// (Optional) Create a working decreasing button as well
+// (Hint) Any content of an HTML element is going to be a string
+// (Hint) You can store the number in a variable
+
+$('.closing-x button').click(() => {
+    // it's the same as before
+    $("#question-circle").text("Hi");
 })

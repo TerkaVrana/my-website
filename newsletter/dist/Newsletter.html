@@ -1,63 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Newsletter</title>
   <link rel="stylesheet" href="./style-newsletter.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<body>
-  <!-- your HTML content here... -->
+  <!-- partial:index.partial.html -->
 
-  <div class="container">
-    <h1>Awesome Landing Page</h1>
+  <body>
+    <!-- your HTML content here... -->
 
-    <div class="card-holder">
-      <div class="card">
-        <img id="pic1" src="pink.jpg" alt="">
-        <h3>Pink</h3>
-      </div>
+    <div class="container">
+      <h1>Awesome Landing Page</h1>
 
-      <div class="card">
-        <img id="pic1" src="orange.jpg" alt="">
-        <h3>Orange</h3>
-      </div>
-
-      <div class="card">
-        <img id="pic1" src="blue.jpg" alt="">
-        <h3>Blue</h3>
-      </div>
-    </div>
-
-    <div class="newsletter-form">
-      <form action="">
-
-        <h3>Newsletter</h3>
-        <p>Paragraph</p>
-
-        <input type="text" id="email">
-        <input type="text" id="color-input" value="blue">
-        <button type="submit">Subscribe</button>
-        <input type="checkbox" id="terms">
-        <label for="terms">Accept the <a href="../../terms_and_conditions.html" target="_blank">terms and conditions</a> </label>
-
-        <div class="closing-x">
-          <button type="button">x</button>
+      <div class="card-holder">
+        <div class="card">
+          <img id="pic1" src="pink.jpg" alt="">
+          <h3>Pink</h3>
         </div>
-      </form>
+
+        <div class="card">
+          <img id="pic1" src="orange.jpg" alt="">
+          <h3>Orange</h3>
+        </div>
+
+        <div class="card">
+          <img id="pic1" src="blue.jpg" alt="">
+          <h3>Blue</h3>
+        </div>
+      </div>
+
+      <div class="newsletter-form">
+        <form action="">
+
+          <h3>Newsletter</h3>
+          <p>Paragraph</p>
+
+          <input type="text" id="email">
+          <input type="text" id="color-input" value="blue">
+          <button type="submit">Subscribe</button>
+          <input type="checkbox" id="terms">
+          <label for="terms">Accept the <a href="../../terms_and_conditions.html" target="_blank">terms and
+              conditions</a> </label>
+
+          <div class="closing-x">
+            <button type="button">x</button>
+          </div>
+        </form>
+      </div>
+
+      <button id="question-circle">?</button>
+      <button id="change-color">Change color!</button>
+
+      <h1>Counter</h1>
+      <h2 id="counter">0</h2>
+      <!-- <input type="text" value="1" class="counter" /> -->
+      <button type="button" class="increment-btn">Increase</button>
+      <button type="button" class="decrement-btn">Decrease</button>
     </div>
 
-    <button id="question-circle">?</button>
-    <button id="change-color">Change color!</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script-newsletter.js"></script>
+  </body>
+  <!-- partial -->
 
-  </div>
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script-newsletter.js"></script>
 </body>
-<!-- partial -->
-  
-</body>
+
 </html>
