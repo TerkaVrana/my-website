@@ -56,11 +56,11 @@ $('button#change-color').click(() => {
 // Change the buttons' background-color to the given color
 // Try it with different colors
 
-// $('button#question-circle').click(() =>{
-//     let color = $("#color-input").val();
-//     // alert(color);
-//     $("button").css("background", color);
-// });
+$('button#question-circle').click(() =>{
+    let color = $("#color-input").val();
+    // alert(color);
+    $("button").css("background", color);
+});
 
 // $('#email').submit(("input" !== "blank") =>{
 //     $("#question-circle").css("background", "lightblue");
@@ -70,14 +70,14 @@ $('button#change-color').click(() => {
 // Now your previous application changes the buttons' color whenever the input vale has changed and you clicked on the last button
 // Change the behavior by ignoring all the clicks after the first one. So even if the input has changed, keep the previous color if it has already changed once.
 
-let changed = false;
-$('button#question-circle').click(() => {
-    if (!changed) {
-        changed = true;
-        let color = $("#color-input").val();
-        $("button").css("background", color);
-    }
-})
+// let changed = false;
+// $('button#question-circle').click(() => {
+//     if (!changed) {
+//         changed = true;
+//         let color = $("#color-input").val();
+//         $("button").css("background", color);
+//     }
+// })
 
 //-----------------------------------
 
